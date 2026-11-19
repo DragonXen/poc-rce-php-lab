@@ -22,7 +22,7 @@ A vulnerabilidade descrita pela técnica WSTG-INPV-12 ocorre quando um arquivo e
 Eu criei um arquivo chamado `index.php` com acesso direto ao terminal usando a função `exec()` do PHP. Ele chama o `dig` para consultar o IP de domínios.
 
 ```text
-http://127.0.0.1/?comando=google.com
+http://127.0.0.1:8080/?comando=google.com
 
 IP do domínio google.com: 172.217.30.238
 ```
